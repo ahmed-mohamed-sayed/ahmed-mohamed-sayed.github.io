@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ahmed Mohamed Sayed — Senior Business Analyst specializing in Business Intelligence, Financial Analytics, and Digital Transformation. Turning business challenges into data-driven decisions across fintech and financial services.">
+  <title>Ahmed Mohamed Sayed | Business Analytics Playbook</title>
+  
+  <!-- CSS Links -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+  
+  <!-- JS Scripts -->
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">
+        Ahmed <span class="logo-dot"></span>
+      </div>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#why-me">Why Me</a>
+        <a href="#journey">My Journey</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#work">Case Studies</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="mobile-menu-btn" aria-label="Menu">☰</button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="section" style="min-height: 100vh; display: flex; align-items: center; padding-top: var(--spacing-32);">
+    <div class="container">
+      <div class="grid grid-2 items-center">
+        <div class="animate-fade-up">
+          <div class="hero-avatar" style="width: 180px; height: 180px; border-radius: 50%; background: var(--bg-surface); border: 3px solid var(--accent-primary); margin-bottom: var(--spacing-6); display: flex; align-items: center; justify-content: center; overflow: hidden;">
+            <img src="assets/me.jpeg" alt="Ahmed Mohamed Sayed" style="width: 100%; height: 100%; object-fit: cover;">
+          </div>
+          <p class="subheading delay-100">Ahmed Mohamed Sayed</p>
+          <h1 class="delay-200">
+            Turning Business Challenges into <span class="text-gradient accent-text">Data-Driven Decisions.</span>
+          </h1>
+          <p class="delay-300" style="font-size: var(--text-lg); margin-top: var(--spacing-6); margin-bottom: var(--spacing-8); max-width: 600px;">
+            Helping organizations transform complex business challenges into trusted insights through business analysis, analytics, enterprise data architecture, and digital transformation.
+          </p>
+          <div class="flex" style="gap: var(--spacing-4); flex-wrap: wrap;" class="delay-400">
+            <a href="#work" class="btn btn-primary">View Playbook</a>
+            <a href="#resume" class="btn btn-secondary">Download Resume</a>
+            <a href="https://www.linkedin.com/in/ahmedams/" target="_blank" class="btn btn-secondary">Connect on LinkedIn</a>
+          </div>
+        </div>
+        
+        <!-- Animated Workflow Diagram (Hero Background) -->
+        <div class="animate-fade-in delay-500 hero-diagram-wrapper">
+          <svg viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg" class="hero-diagram-svg">
+            <!-- Main S-Curve Path -->
+            <path d="M 100 100 L 700 100 A 100 100 0 0 1 700 300 L 100 300 A 100 100 0 0 0 100 500 L 700 500" 
+                  stroke="var(--border-color)" stroke-width="12" stroke-linecap="round" fill="none" />
+            <!-- Inner dashed path -->
+            <path d="M 100 100 L 700 100 A 100 100 0 0 1 700 300 L 100 300 A 100 100 0 0 0 100 500 L 700 500" 
+                  stroke="var(--accent-primary)" stroke-width="4" stroke-dasharray="8 8" stroke-linecap="round" fill="none" />
+            
+            <!-- Row 1 -->
+            <!-- Direction Arrows -->
+            <polygon points="240,92 256,100 240,108" fill="var(--accent-primary)"/>
+            <polygon points="540,92 556,100 540,108" fill="var(--accent-primary)"/>
+            
+            <!-- Node 1 -->
+            <circle cx="100" cy="100" r="35" fill="var(--bg-surface)" stroke="var(--accent-primary)" stroke-width="4"/>
+            <text x="100" y="108" font-size="24" text-anchor="middle">🎯</text>
+            <text x="100" y="165" fill="var(--text-secondary)" font-size="14" font-weight="bold" text-anchor="middle" font-family="var(--font-body)">Business Problem</text>
+
+            <!-- Node 2 -->
+            <circle cx="400" cy="100" r="35" fill="var(--bg-surface)" stroke="var(--accent-primary)" stroke-width="4"/>
+            <text x="400" y="108" font-size="24" text-anchor="middle">📋</text>
+            <text x="400" y="165" fill="var(--text-secondary)" font-size="14" font-weight="bold" text-anchor="middle" font-family="var(--font-body)">Requirements Gathering</text>
+
+            <!-- Node 3 -->
+            <circle cx="700" cy="100" r="35" fill="var(--bg-surface)" stroke="var(--accent-primary)" stroke-width="4"/>
+            <text x="700" y="108" font-size="24" text-anchor="middle">🧠</text>
+            <text x="700" y="165" fill="var(--text-secondary)" font-size="14" font-weight="bold" text-anchor="middle" font-family="var(--font-body)">Business Analysis</text>
+
+            <!-- Row 2 -->
+            <!-- Direction Arrows (Right to Left) -->
+            <polygon points="560,292 544,300 560,308" fill="var(--accent-primary)"/>
+            <polygon points="260,292 244,300 260,308" fill="var(--accent-primary)"/>
+
+            <!-- Node 4 (Right) -->
+            <circle cx="700" cy="300" r="35" fill="var(--bg-surface)" stroke="var(--accent-primary)" stroke-width="4"/>
+            <text x="700" y="308" font-size="24" text-anchor="middle">📥</text>
+            <text x="700" y="365" fill="var(--text-secondary)" font-size="14" font-weight="bold" text-anchor="middle" font-family="var(--font-body)">Data Acquisition</text>
+
+            <!-- Node 5 (Middle) -->
+            <circle cx="400" cy="300" r="35" fill="var(--bg-surface)" stroke="var(--accent-primary)" stroke-width="4"/>
+            <text x="400" y="308" font-size="24" text-anchor="middle">🏗️</text>
+            <text x="400" y="365" fill="var(--text-secondary)" font-size="14" font-weight="bold" text-anchor="middle" font-family="var(--font-body)">Data Modeling</text>
+
+            <!-- Node 6 (Left) -->
+            <circle cx="100" cy="300" r="35" fill="var(--bg-surface)" stroke="var(--accent-primary)" stroke-width="4"/>
+            <text x="100" y="308" font-size="24" text-anchor="middle">✅</text>
+            <text x="100" y="365" fill="var(--text-secondary)" font-size="14" font-weight="bold" text-anchor="middle" font-family="var(--font-body)">Data Validation</text>
+
+            <!-- Row 3 -->
+            <!-- Direction Arrows (Left to Right) -->
+            <polygon points="240,492 256,500 240,508" fill="var(--accent-primary)"/>
+            <polygon points="540,492 556,500 540,508" fill="var(--accent-primary)"/>
+
+            <!-- Node 7 -->
+            <circle cx="100" cy="500" r="35" fill="var(--bg-surface)" stroke="var(--accent-primary)" stroke-width="4"/>
+            <text x="100" y="508" font-size="24" text-anchor="middle">📊</text>
+            <text x="100" y="565" fill="var(--text-secondary)" font-size="14" font-weight="bold" text-anchor="middle" font-family="var(--font-body)">Dashboard Development</text>
+
+            <!-- Node 8 -->
+            <circle cx="400" cy="500" r="35" fill="var(--bg-surface)" stroke="var(--accent-primary)" stroke-width="4"/>
+            <text x="400" y="508" font-size="24" text-anchor="middle">💡</text>
+            <text x="400" y="565" fill="var(--text-secondary)" font-size="14" font-weight="bold" text-anchor="middle" font-family="var(--font-body)">Business Insights</text>
+
+            <!-- Node 9 -->
+            <circle cx="700" cy="500" r="35" fill="var(--accent-primary)" stroke="var(--bg-surface)" stroke-width="4"/>
+            <text x="700" y="508" font-size="24" text-anchor="middle">🚀</text>
+            <text x="700" y="565" fill="var(--text-secondary)" font-size="14" font-weight="bold" text-anchor="middle" font-family="var(--font-body)">Decision Support</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Me Section -->
+  <section id="why-me" class="section bg-surface">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="subheading">Why Me</p>
+        <h2>Why Organizations Trust Me</h2>
+        <p>A unique blend of Business Understanding, Financial Knowledge, Analytics, Enterprise Data, and Hands-on Technical Execution.</p>
+      </div>
+      
+      <div class="grid grid-3 stagger-container">
+        <div class="card stat-card reveal-stagger bg-glass">
+          <div class="stat-number" data-target="17" data-suffix="+">0+</div>
+          <div class="stat-label">Years Experience</div>
+          <p class="stat-description" style="font-size: var(--text-sm); color: var(--text-secondary); margin-top: var(--spacing-2);">Spanning financial accounting, data analysis, BI, and enterprise data architecture.</p>
+        </div>
+        <div class="card stat-card reveal-stagger bg-glass">
+          <div class="stat-number" data-target="12" data-suffix="">0</div>
+          <div class="stat-label">Years Finance & Accounting</div>
+          <p class="stat-description" style="font-size: var(--text-sm); color: var(--text-secondary); margin-top: var(--spacing-2);">I understand financial KPIs from their source — not from a textbook. This lets me design analytics that finance stakeholders actually trust.</p>
+        </div>
+        <div class="card stat-card reveal-stagger bg-glass">
+          <div class="stat-number" data-target="6" data-suffix="+">0+</div>
+          <div class="stat-label">Years Analytics & Enterprise Data</div>
+          <p class="stat-description" style="font-size: var(--text-sm); color: var(--text-secondary); margin-top: var(--spacing-2);">End-to-end ownership from business requirements through data modeling, dashboard delivery, and decision support — without depending on multiple teams.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Journey Section -->
+  <section id="journey" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="subheading">My Journey</p>
+        <h2>A Path of Continuous Impact</h2>
+      </div>
+      
+      <div class="timeline stagger-container">
+        <div class="timeline-item reveal-stagger">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2007 – 2019</span>
+            <h3 class="timeline-title">Building the Foundation</h3>
+            <p>Learned the language of business. Understanding how financial transactions flow into reporting and impact the bottom line.</p>
+            <span class="timeline-company" style="display: block; font-size: var(--text-sm); color: var(--accent-primary); margin-top: var(--spacing-2); font-style: italic;">Branch Accountant → Accounting Manager | EGL & Trust Trans</span>
+          </div>
+        </div>
+        
+        <div class="timeline-item reveal-stagger">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2019 – 2020</span>
+            <h3 class="timeline-title">Driving Insights</h3>
+            <p>Shifted from backward-looking reporting to forward-looking analysis. Created business value through variance analysis and budgeting.</p>
+            <span class="timeline-company" style="display: block; font-size: var(--text-sm); color: var(--accent-primary); margin-top: var(--spacing-2); font-style: italic;">Data Analyst | SmartLab Egypt</span>
+          </div>
+        </div>
+        
+        <div class="timeline-item reveal-stagger">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2020 – 2023</span>
+            <h3 class="timeline-title">Scaling Reporting</h3>
+            <p>Automated financial and operational reporting. Designed interactive dashboards for executive decision support.</p>
+            <span class="timeline-company" style="display: block; font-size: var(--text-sm); color: var(--accent-primary); margin-top: var(--spacing-2); font-style: italic;">Data Analyst — BI | CIT VeriCash</span>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-stagger">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2023 – 2025</span>
+            <h3 class="timeline-title">Architecting Solutions</h3>
+            <p>Moved upstream to design data warehouses, ensuring data quality, integration, and robust data modeling for the entire organization.</p>
+            <span class="timeline-company" style="display: block; font-size: var(--text-sm); color: var(--accent-primary); margin-top: var(--spacing-2); font-style: italic;">Business Analytics & Data Specialist | AMAN Holding</span>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-stagger">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2025 – Present</span>
+            <h3 class="timeline-title">Delivering Business Impact</h3>
+            <p>Combining business strategy, technical execution, and stakeholder collaboration to drive full-scale digital transformation.</p>
+            <span class="timeline-company" style="display: block; font-size: var(--text-sm); color: var(--accent-primary); margin-top: var(--spacing-2); font-style: italic;">Senior Business & Analytics Specialist | AMAN Holding</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Expertise -->
+  <section id="expertise" class="section bg-surface">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="subheading">Core Expertise</p>
+        <h2>Capabilities That Drive Growth</h2>
+      </div>
+      
+      <div class="grid grid-3 stagger-container">
+        <div class="card reveal-stagger">
+          <div class="card-icon">🎯</div>
+          <h3>Business Analysis</h3>
+          <p>Requirements Analysis, Stakeholder Collaboration, Process Automation.</p>
+        </div>
+        <div class="card reveal-stagger">
+          <div class="card-icon">📊</div>
+          <h3>Business Intelligence</h3>
+          <p>Executive Dashboards, Decision Support, KPI Design, Power BI, Tableau.</p>
+        </div>
+        <div class="card reveal-stagger">
+          <div class="card-icon">🔍</div>
+          <h3>Data Analytics</h3>
+          <p>Financial Analytics, CRM Analytics, Customer 360, Predictive Forecasting.</p>
+        </div>
+        <div class="card reveal-stagger">
+          <div class="card-icon">🏗️</div>
+          <h3>Enterprise Data</h3>
+          <p>Data Modeling, Data Warehousing, Data Quality, SQL, Python.</p>
+        </div>
+        <div class="card reveal-stagger">
+          <div class="card-icon">⚡</div>
+          <h3>Digital Transformation</h3>
+          <p>Enterprise Integrations, DevOps Analytics, System Architecture.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Case Studies -->
+  <section id="work" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="subheading">Featured Case Studies</p>
+        <h2>Proven Business Impact</h2>
+      </div>
+      
+      <div class="grid grid-2 stagger-container">
+        <!-- Case Study 1 -->
+        <div class="card reveal-stagger">
+          <h3>Customer 360 Analytics Platform</h3>
+          <p><strong>Business Challenge:</strong> Customer information was fragmented across multiple systems, resulting in inconsistent reporting, duplicate records, and limited customer visibility.</p>
+          <p><strong>Impact:</strong> Delivered a trusted, unified customer data foundation across 5+ source systems — eliminating cross-report data discrepancies, enabling CRM teams to operate on clean consistent data, and reducing time-to-insight for customer analytics.</p>
+          <div class="tags-container">
+            <span class="badge">CRM Analytics</span>
+            <span class="badge">Data Pipelines</span>
+            <span class="badge">Data Quality</span>
+          </div>
+        </div>
+        <!-- Case Study 2 -->
+        <div class="card reveal-stagger">
+          <h3>Enterprise Integration Platform</h3>
+          <p><strong>Business Challenge:</strong> Business processes relied on disconnected systems, manual integrations, and inconsistent data exchange between internal applications and external partners.</p>
+          <p><strong>Impact:</strong> Standardized data exchange across internal systems and external partners via secure API gateway — improving business process automation, reducing integration effort for new services, and enabling reliable real-time data availability.</p>
+          <div class="tags-container">
+            <span class="badge">API Integration</span>
+            <span class="badge">System Architecture</span>
+            <span class="badge">Process Automation</span>
+          </div>
+        </div>
+        <!-- Case Study 3 -->
+        <div class="card reveal-stagger">
+          <h3>DevOps Analytics & Performance Reporting</h3>
+          <p><strong>Business Challenge:</strong> Leadership lacked visibility into software delivery performance and engineering effectiveness.</p>
+          <p><strong>Impact:</strong> Gave engineering leadership objective DORA-based performance data for the first time — directly supporting quarterly performance reviews and enabling evidence-based DevOps investment decisions.</p>
+          <div class="tags-container">
+            <span class="badge">Power BI</span>
+            <span class="badge">DevOps Analytics</span>
+            <span class="badge">Dashboards</span>
+          </div>
+        </div>
+        <!-- Case Study 4 -->
+        <div class="card reveal-stagger">
+          <h3>VeriCash Enterprise Data Warehouse</h3>
+          <p><strong>Business Challenge:</strong> Business reporting relied on fragmented operational systems, making reporting slow, inconsistent, and difficult to scale.</p>
+          <p><strong>Impact:</strong> Decoupled analytics from production systems — enabling the analytics team to perform complex analysis without impacting live operations, and reducing report generation time significantly.</p>
+          <div class="tags-container">
+            <span class="badge">Data Warehousing</span>
+            <span class="badge">Data Modeling</span>
+            <span class="badge">SQL</span>
+          </div>
+        </div>
+        <!-- Case Study 5 -->
+        <div class="card reveal-stagger">
+          <h3>Sales & Operations Process Automation</h3>
+          <p><strong>Business Challenge:</strong> Critical operational activities depended on manual processes that were time-consuming and prone to human error.</p>
+          <p><strong>Impact:</strong> Eliminated high-effort manual workflows — including a reporting task that previously took 7 hours, delivered in under 60 seconds after automation. Resolved a critical production blocker during a major system migration.</p>
+          <div class="tags-container">
+            <span class="badge">Process Automation</span>
+            <span class="badge">Python</span>
+            <span class="badge">Operations</span>
+          </div>
+        </div>
+        <!-- Case Study 6 -->
+        <div class="card reveal-stagger">
+          <h3>Predictive Delivery Forecasting</h3>
+          <p><strong>Business Challenge:</strong> Delivery estimates were based on subjective judgement, creating uncertainty for business planning and stakeholder expectations.</p>
+          <p><strong>Impact:</strong> Replaced subjective delivery estimates with a statistically grounded Monte Carlo forecasting model — improving business planning accuracy and stakeholder expectation management.</p>
+          <div class="tags-container">
+            <span class="badge">Predictive Analytics</span>
+            <span class="badge">Monte Carlo</span>
+            <span class="badge">Python</span>
+          </div>
+        </div>
+        <!-- Case Study 7 -->
+        <div class="card reveal-stagger" style="grid-column: 1 / -1;">
+          <h3>Streamlit Analytics Applications</h3>
+          <p><strong>Business Challenge:</strong> Need for lightweight analytical applications combining data collection, processing, visualization, and decision support within a single interactive interface.</p>
+          <p><strong>Impact:</strong> Delivered lightweight end-to-end analytical applications combining data collection, processing, and visualization — including an AI-assisted CV ranking tool for HR, real-time safety monitoring, and profitability dashboards for business operations.</p>
+          <div class="tags-container">
+            <span class="badge">Streamlit</span>
+            <span class="badge">AI/ML</span>
+            <span class="badge">Interactive Dashboards</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-surface">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="subheading">Continuous Growth</p>
+        <h2>Learning Journey</h2>
+        <p>Staying ahead of the modern data and analytics landscape.</p>
+      </div>
+      <div class="tags-container reveal" style="justify-content: center;">
+        <span class="badge" style="border-color: var(--accent-primary);">Databricks / Lakehouse Architecture</span>
+        <span class="badge" style="border-color: var(--accent-primary);">Databricks Data Engineering Associate — In Progress</span>
+        <span class="badge" style="border-color: var(--accent-primary);">Microsoft Fabric</span>
+        <span class="badge">Generative AI for Business</span>
+        <span class="badge">dbt (Data Build Tool)</span>
+        <span class="badge">Modern Data Stack</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer / Contact -->
+  <section id="contact" class="section">
+    <div class="container text-center reveal">
+      <h2 style="margin-bottom: var(--spacing-8);">Looking for a Business Analyst who owns the full analytics lifecycle — from business requirements to executive dashboards? Let's talk.</h2>
+      <div class="flex justify-center" style="gap: var(--spacing-4); flex-wrap: wrap;">
+        <a href="mailto:ahmed@example.com" class="btn btn-primary">Email Me</a>
+        <a href="https://www.linkedin.com/in/ahmedams/" target="_blank" class="btn btn-secondary">LinkedIn</a>
+        <a href="https://github.com" target="_blank" class="btn btn-secondary">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <footer style="padding: var(--spacing-8) 0; border-top: 1px solid var(--border-color); text-align: center;">
+    <div class="container">
+      <p style="color: var(--text-tertiary); font-size: var(--text-sm);">
+        &copy; 2026 Ahmed Mohamed Sayed. Business Analytics & Digital Transformation.
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
