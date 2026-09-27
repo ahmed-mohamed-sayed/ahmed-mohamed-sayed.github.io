@@ -187,18 +187,9 @@
         <div class="timeline-item reveal-stagger">
           <div class="timeline-dot"></div>
           <div class="timeline-content">
-            <span class="timeline-date">2023 – 2025</span>
+            <span class="timeline-date">2023 – Present</span>
             <h3 class="timeline-title">Engineering Data & Integration Solutions</h3>
-            <p>Moved deeper into engineering — working across enterprise integrations, APIs, data architecture, data quality, and operational systems.</p>
-            <span class="timeline-company" style="display: block; font-size: var(--text-sm); color: var(--accent-primary); margin-top: var(--spacing-2); font-style: italic;">Business Analytics & Data Specialist | AMAN Holding</span>
-          </div>
-        </div>
-        <div class="timeline-item reveal-stagger">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <span class="timeline-date">2025 – Present</span>
-            <h3 class="timeline-title">Engineering at Scale</h3>
-            <p>Combining data engineering, enterprise integration, API-driven solutions, automation, and modern AI projects to solve practical operational problems.</p>
+            <p>Working across enterprise integrations, APIs, data engineering, data architecture, automation, and operational systems — with increasing focus on AI-powered solutions.</p>
             <span class="timeline-company" style="display: block; font-size: var(--text-sm); color: var(--accent-primary); margin-top: var(--spacing-2); font-style: italic;">Digital Engineering & Data Architecture | AMAN Holding</span>
           </div>
         </div>
@@ -260,13 +251,13 @@
       <h3 style="margin-top: var(--spacing-8); margin-bottom: var(--spacing-6);">Data Engineering</h3>
       <div class="grid grid-2 stagger-container">
         <div class="card reveal-stagger">
-          <h3>Customer 360 Data Platform</h3>
+          <h3>Customer 360 Data Platform <span class="project-company">| AMAN Holding</span></h3>
           <p><strong>Business Challenge:</strong> Customer data was scattered across multiple disconnected systems with no single source of truth — resulting in inconsistent reporting, duplicate records, and CRM teams working from incomplete or conflicting customer information.</p>
           <p><strong>Impact:</strong> Designed and delivered a Customer 360 data warehouse that consolidated fragmented customer data from 5+ source systems into a single trusted foundation — resolving duplicate records and integrating the warehouse directly with the internal CRM.</p>
           <div class="tags-container"><span class="badge">Data Engineering</span><span class="badge">Data Warehousing</span><span class="badge">Customer 360</span><span class="badge">Data Quality</span></div>
         </div>
         <div class="card reveal-stagger">
-          <h3>VeriCash Enterprise Data Warehouse</h3>
+          <h3>VeriCash Enterprise Data Warehouse <span class="project-company">| CIT VeriCash</span></h3>
           <p><strong>Business Challenge:</strong> Business reporting relied on fragmented operational systems with no centralized analytical platform — making reporting slow, inconsistent, and impossible to scale.</p>
           <p><strong>Impact:</strong> Contributed as part of the project team — supporting requirements gathering, evaluating tool options through structured POCs, mapping data specifications and business definitions, defining and applying ETL jobs, and building prototype dashboards to validate analytical use cases.</p>
           <div class="tags-container"><span class="badge">Data Warehousing</span><span class="badge">Data Modeling</span><span class="badge">ETL</span><span class="badge">POC Evaluation</span></div>
@@ -276,25 +267,25 @@
       <h3 style="margin-top: var(--spacing-12); margin-bottom: var(--spacing-6);">Integration Engineering</h3>
       <div class="grid grid-2 stagger-container">
         <div class="card reveal-stagger">
-          <h3>Enterprise Integration Platform — API Gateway Layer</h3>
+          <h3>Enterprise Integration Platform — API Gateway Layer <span class="project-company">| AMAN Holding</span></h3>
           <p><strong>Business Challenge:</strong> AMAN's operations depended on disconnected systems — CRM, billing aggregators, external AI models, and internal databases operated in silos, requiring manual data exchange and custom point-to-point connections.</p>
           <p><strong>Impact:</strong> Standardized data exchange across internal systems and external partners via secure API gateway — improving business process automation, reducing integration effort for new services, and enabling reliable real-time data availability.</p>
           <div class="tags-container"><span class="badge">API Integration</span><span class="badge">System Architecture</span><span class="badge">WSO2</span><span class="badge">API Gateway</span></div>
         </div>
         <div class="card reveal-stagger">
-          <h3>AI-Driven Support Automation & Data Extraction</h3>
+          <h3>AI-Driven Support Automation & Data Extraction <span class="project-company">| CIT VeriCash — Part-time</span></h3>
           <p><strong>Business Challenge:</strong> Support workflows were bottlenecked by manual data extraction, while secure programmatic access to internal support metrics was needed without exposing private network infrastructure or vulnerable firewall configurations.</p>
           <p><strong>Impact:</strong> Developed high-performance Golang executables to automate data extraction directly from Tableau using Personal Access Tokens (PAT), engineered as callable tools for an AI support model and feeding live operational data. Deployed Cloudflare Tunnels (<code>cloudflared</code>) to bypass strict internal network limitations, allowing safe inbound traffic without opening external ports.</p>
           <div class="tags-container"><span class="badge">Golang Development</span><span class="badge">Tableau API Integration</span><span class="badge">AI Tooling</span><span class="badge">Network Security</span></div>
         </div>
         <div class="card reveal-stagger">
-          <h3>Intelligent Jira SLA & Triage Automation</h3>
-          <p><strong>Business Challenge:</strong> Manual Jira triage caused routing delays and SLA breaches; documentation and updates across Jira and SharePoint created friction, while external cloud-to-internal webhook connections were blocked by restrictive routing policies.</p>
+          <h3>Intelligent Jira SLA & Ticket Assignment Automation <span class="project-company">| CIT VeriCash — Part-time</span></h3>
+          <p><strong>Business Challenge:</strong> Manual Jira ticket handling caused routing delays and SLA breaches; documentation and updates across Jira and SharePoint created friction, while external cloud-to-internal webhook connections were blocked by restrictive routing policies.</p>
           <p><strong>Impact:</strong> Engineered an n8n workflow to intercept Jira webhooks, evaluate ticket categorization, intelligently assign tickets to available Support/Ops personnel to guarantee SLA compliance, dynamically update statuses, post context-rich comments, and sync records with SharePoint. Used Cloudflare Tunnels (<code>cloudflared</code>) for a secure encrypted tunnel from Jira Cloud directly to internal n8n.</p>
           <div class="tags-container"><span class="badge">n8n</span><span class="badge">Jira Integration</span><span class="badge">Incident Management</span><span class="badge">SharePoint Integration</span></div>
         </div>
         <div class="card reveal-stagger">
-          <h3>AI-Powered Accounting Workflow & ERP Integration</h3>
+          <h3>AI-Powered Accounting Workflow & ERP Integration <span class="project-company">| Joosy Frozze</span></h3>
           <p><strong>Business Challenge:</strong> Daily financial operations across multiple branches required manual receipt processing, manual calculations, Google Sheets accounting-cycle updates, and journal entries in Daftra ERP — making the process time-consuming and error-prone.</p>
           <p><strong>Impact:</strong> Built an end-to-end n8n pipeline that condensed the process to a single action: upload daily receipt images → AI extracts key financial fields → structured Google Sheets accounting cycle → Daftra ERP API automatically calculates and generates sales and expense journal entries.</p>
           <div class="tags-container"><span class="badge">n8n</span><span class="badge">AI Data Extraction</span><span class="badge">Daftra ERP API</span><span class="badge">Financial Operations</span></div>
@@ -303,42 +294,30 @@
 
       <h3 style="margin-top: var(--spacing-12); margin-bottom: var(--spacing-6);">AI, Automation & Engineering</h3>
       <div class="grid grid-2 stagger-container">
-        <div class="card reveal-stagger">
-          <h3>Sales & Operations Process Automation</h3>
-          <p><strong>Business Challenge:</strong> Critical operational activities depended on manual processes that were time-consuming and prone to human error.</p>
-          <p><strong>Impact:</strong> Eliminated high-effort manual workflows — including a reporting task that previously took 7 hours, delivered in under 60 seconds after automation. Resolved a critical production blocker during a major system migration.</p>
-          <div class="tags-container"><span class="badge">Process Automation</span><span class="badge">Python</span><span class="badge">Automation</span></div>
-        </div>
-        <div class="card reveal-stagger">
-          <h3>Streamlit Analytics Applications</h3>
-          <p><strong>Business Challenge:</strong> Need for lightweight applications combining data collection, processing, visualization, and decision support within a single interactive interface.</p>
-          <p><strong>Impact:</strong> Delivered lightweight end-to-end applications combining data collection, processing, and visualization — including an AI-assisted CV ranking tool for HR, real-time safety monitoring, and profitability dashboards for business operations.</p>
-          <div class="tags-container"><span class="badge">Streamlit</span><span class="badge">AI-Assisted Applications</span><span class="badge">Automation</span></div>
-        </div>
       </div>
 
       <h3 style="margin-top: var(--spacing-12); margin-bottom: var(--spacing-6);">Operational Intelligence & Analytics</h3>
       <div class="grid grid-2 stagger-container">
         <div class="card reveal-stagger">
-          <h3>Monitoring & Service Health Dashboards</h3>
+          <h3>Monitoring & Service Health Dashboards <span class="project-company">| AMAN Holding</span></h3>
           <p><strong>Business Challenge:</strong> Operations needed continuous visibility into service health, successful transactions, and failures without relying on delayed or manually prepared reports.</p>
           <p><strong>Impact:</strong> Delivered complete operational and monitoring dashboards in Tableau to track service health, success, and failures in real time and support faster operational awareness.</p>
           <div class="tags-container"><span class="badge">Tableau</span><span class="badge">Operational Monitoring</span><span class="badge">Real-Time Visibility</span></div>
         </div>
         <div class="card reveal-stagger">
-          <h3>Operational & Business Performance Dashboards</h3>
+          <h3>Operational & Business Performance Dashboards <span class="project-company">| AMAN Holding</span></h3>
           <p><strong>Business Challenge:</strong> Business teams needed a consistent view of service revenue and performance across monthly and yearly periods.</p>
           <p><strong>Impact:</strong> Built Tableau dashboards tracking service revenue and performance month-to-month and year-to-year, providing a reusable operational view for performance analysis.</p>
           <div class="tags-container"><span class="badge">Tableau</span><span class="badge">Revenue Analytics</span><span class="badge">Performance Tracking</span></div>
         </div>
         <div class="card reveal-stagger">
-          <h3>DevOps Analytics & Performance Reporting</h3>
+          <h3>DevOps Analytics & Performance Reporting <span class="project-company">| AMAN Holding</span></h3>
           <p><strong>Business Challenge:</strong> Engineering leadership lacked visibility into software delivery performance, project progress, and pipeline health.</p>
           <p><strong>Impact:</strong> Delivered complementary reporting streams — extracted and visualized Jira project data in Power BI, connected Jenkins pipeline logs to Kibana for real-time pipeline monitoring, and applied the DORA metrics framework to measure delivery performance.</p>
           <div class="tags-container"><span class="badge">Power BI</span><span class="badge">Jira</span><span class="badge">Jenkins</span><span class="badge">ELK</span><span class="badge">DORA Metrics</span></div>
         </div>
         <div class="card reveal-stagger">
-          <h3>Predictive Delivery Forecasting</h3>
+          <h3>Predictive Delivery Forecasting <span class="project-company">| AMAN Holding</span></h3>
           <p><strong>Business Challenge:</strong> Delivery estimates were based on subjective judgement, creating uncertainty for business planning and stakeholder expectations.</p>
           <p><strong>Impact:</strong> Replaced subjective delivery estimates with a statistically grounded Monte Carlo forecasting model to support business planning and stakeholder expectation management.</p>
           <div class="tags-container"><span class="badge">Predictive Analytics</span><span class="badge">Monte Carlo</span><span class="badge">Business Planning</span></div>
